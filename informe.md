@@ -44,7 +44,7 @@ Recurso: `enades://pregunta/{variable}` · Prompt: `/mcp__enades__informe`.
 
 **Memoria.** Respondió «no sabe» en las 10 preguntas, posiblemente porque los informes son posteriores a los datos de entrenamiento del modelo. No acierta ninguna, pero tampoco inventa cifras.
 
-**Web.** Acertó 4: las tres cifras nacionales del INEI (pobreza total, extrema y rural 2025) y P06 «muy o algo» (72 % frente a 71.5 %, probablemente el valor redondeado del informe). Respondió «no sabe» en las otras 6: P14, P15, P16, los dos cruces de P09 y la pobreza de la Sierra rural. Esas cifras no aparecen tal cual en la web y salen de los microdatos o de cuadros desagregados. Además, tardó unas tres veces más que el MCP.
+**Web.** Acertó 4: las tres cifras nacionales del INEI (pobreza total, extrema y rural 2025) y P06 «muy o algo» (72 %, tomado de una nota de Infobae que cita el informe). Respondió «no sabe» en las otras 6: P14, P15, P16, los dos cruces de P09 y la pobreza de la Sierra rural. Esas cifras sí están publicadas en los PDF (P14, P15 y P16 en la p. 42 del informe del IEP, P09 rural en la p. 118 y la Sierra rural en el cuadro 4.1 del INEI), pero la búsqueda web solo leyó notas de prensa (Infobae, El Peruano, Ojo Público) y no abrió los informes originales. En P16 incluso encontró el 52 % en Infobae, pero respondió «no sabe» porque la nota no decía a qué desigualdad se refería. Además, tardó unas tres veces más que el MCP.
 
 **MCP.** Acierta las 10, porque calcula los porcentajes ponderados directamente sobre los microdatos de la ENADES y lee las tasas de los cuadros del INEI, en vez de buscarlos en textos publicados.
 
@@ -61,7 +61,7 @@ Con solo 2 o 3 grupos, son comparaciones descriptivas, no correlaciones. Además
 | Cifra | Dónde la comprobé | Valor publicado | Valor del MCP |
 |---|---|---|---|
 | P09 «Baja», Perú rural | [Informe IEP ENADES 2026, p. 118](https://estudiosdeopinion.iep.org.pe/wp-content/uploads/2026/12/Oxfam-IEP.-ENADES-2026.-Informe.pdf) | 37 % | 37.3 % |
-| Pobreza monetaria rural 2025 | [INEI, cuadro 4.1, p. 72](https://cdn.www.gob.pe/uploads/document/file/9911234/8087825-informe-tecnico-de-pobreza-monetaria-2016-2025.pdf) | 35 % | 35.5 % |
+| Pobreza monetaria rural 2025 | [INEI, cuadro 4.1, p. 72](https://cdn.www.gob.pe/uploads/document/file/9911234/8087825-informe-tecnico-de-pobreza-monetaria-2016-2025.pdf) | 35,5 % | 35.5 % |
 
 ## 7. Limitaciones
 
